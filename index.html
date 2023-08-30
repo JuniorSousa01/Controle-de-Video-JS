@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoJS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="geral">
+
+        <!--Colocando um título na página-->
+        <h1>Video-JS</h1>
+
+
+        <!--Usando a tag video e depois usando source para pegar um video já baixado anteriormente-->
+        <video 
+        id="meuvideo" 
+        controls>
+
+            <source src="src/SnapInsta.io-Childish Gambino - This Is America (Official Video)-(1080p).mp4">
+            Seu navegador não suporta o elemento de video.
+
+        </video>
+
+        <div id="buttons">
+            
+            <!--Colocando os botões na página-->
+            <button id="pausePlay"> Play </button>
+            <button id="mute"> Mute </button>
+            <button id="restart"> Restart </button>
+            
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
